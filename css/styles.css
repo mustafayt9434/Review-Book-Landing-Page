@@ -1,0 +1,230 @@
+/* check video descriptions for images and source code */
+/* Complete Mobile Responsive */
+/* Day 01 of 20 */
+/* 20 Landing page designs using html, css and javascript */
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: #fbf4e2;
+  --color-bg: #f9f8f4;
+  --color-secondary: #b4d51e;
+  --color-orange: #ffc735;
+  --color-dark: #463c74;
+}
+html {
+  font-size: 10px;
+  /* we will use rem no px */
+}
+body {
+  font-size: 1.6rem;
+  /* 1rem is now = to 10px, so 1.6rem = 16px */
+  font-family: "Merriweather", serif;
+  background-color: var(--color-bg);
+}
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0rem 1.5rem;
+}
+
+/* navbar logo */
+.navbar-logo {
+  width: 100%;
+  height: 8rem;
+}
+.logo-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-box {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.auth {
+  display: flex;
+  align-items: center;
+}
+.heart {
+  width: 3rem;
+  margin-right: 2rem;
+}
+.auth-user {
+  width: 5rem;
+}
+/* menu */
+.menu {
+  width: 100%;
+  height: 8rem;
+}
+.menu-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 0rem 1.5rem;
+  color: var(--color-dark);
+}
+.active {
+  color: #000;
+}
+
+/* header */
+.header {
+  width: 100%;
+  padding: 3rem 7rem;
+  background-color: var(--color-primary);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  grid-gap: 3rem;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+.header-title {
+  color: var(--color-dark);
+  font-size: 4.8rem;
+  margin-bottom: 2rem;
+}
+.header-p {
+  color: var(--color-dark);
+  margin-bottom: 4rem;
+}
+.header-btn {
+  padding: 1.2rem 2rem;
+  background-color: var(--color-secondary);
+  color: var(--color-bg);
+  text-decoration: none;
+  border-radius: 1rem;
+}
+/* popular */
+.popular {
+  margin-top: 10rem;
+}
+.section-header {
+  margin-bottom: 4rem;
+}
+.solid--star {
+  max-width: 1.6rem;
+}
+.empty-star {
+  max-width: 1.6rem;
+}
+.cards-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: 3rem;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+.card-image {
+  width: 100%;
+  height: auto;
+}
+.card-body {
+  margin-top: 3rem;
+}
+.card-reviews {
+  margin-top: 2rem;
+}
+.card-author {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  color: var(--color-dark);
+}
+.user {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-user-img {
+  max-width: 4rem;
+}
+.card-user-name {
+  font-size: 1.4rem;
+}
+.card-user-date {
+  font-size: 1.2rem;
+  color: var(--color-dark);
+}
+/* latest */
+.latest {
+  margin-top: 10rem;
+}
+/* review */
+.review {
+  margin-top: 10rem;
+  width: 100%;
+  padding: 10rem 7rem;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+.review-wrapper {
+  max-width: 70%;
+  text-align: center;
+}
+.review-title {
+  font-size: 4.6rem;
+  color: var(--color-dark);
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.form-input {
+  width: 80%;
+  margin-right: 2%;
+  border: none;
+  outline: none;
+  padding: 1.2rem;
+  background-color: var(--color-bg);
+  border-radius: 1rem;
+}
+.form-btn {
+  width: 18%;
+  padding: 1.3rem;
+  border: none;
+  outline: none;
+  background-color: var(--color-secondary);
+  color: var(--color-bg);
+  cursor: pointer;
+  border-radius: 1rem;
+}
+/* footer */
+.footer {
+  margin-top: 10rem;
+  width: 100%;
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+}
+.footer-copy {
+  padding: 2rem 0rem;
+}
